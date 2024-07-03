@@ -4,7 +4,7 @@ Welcome to the Quantamental Screening GitHub repository. This project aims to cl
 
 ## Overview
 
-This repository utilizes four different methods to connect to the SEC website to retrieve financial statements (balance sheet, income statement, and statement of cash flows) for selected financial metrics (e.g., Revenues, COGS, Goodwill, Current Assets, CFO, CFI) from 10-Q documents for over 8000 unique tickers. These methods allow for the classification of firms based on the following conditions derived from Benjamin Graham's criteria:
+This repository utilizes four different methods to connect to the SEC website to retrieve financial statements (balance sheet, income statement, and statement of cash flows) for selected financial metrics (e.g., Revenues, COGS, Goodwill, Current Assets, CFO, CFI) from 10-Q documents for over 8000 unique tickers. These methods allow for the classification of firms based on the following conditions derived from Benjamin Graham's criteria (The Intelligent Investor book):
 
 ### Defensive Conditions
 1. Total revenues >= $2000 million
