@@ -37,7 +37,7 @@ Adjusts URLs based on CIK to scrape selected facts. Recommended for a balance be
 Creates URLs based on combinations of CIK and fact, generating over 300,000 unique URLs. This method is the most precise and suitable for historical data but requires the longest runtime.
 
 ### 4. Selenium
-Scrapes the SEC website by identifying patterns in the URLs of the 10-Q reports and extracting account numbers from the HTML source. This method is detailed and customizable. Initially tested on 20 firms, but more can be added. It's highly detailed but requires customization for additional firms and facts.
+Naive method that scrapes the SEC website by identifying patterns in the URLs of the 10-Q reports and extracting account numbers from the HTML source. This method is detailed and customizable. Initially tested on 20 firms, but more can be added. It's highly detailed but requires customization for additional firms and facts.
 
 ## File Structure
 
@@ -67,11 +67,7 @@ Scrapes the SEC website by identifying patterns in the URLs of the 10-Q reports 
     ```bash
     cd Quantamental-Screening
     ```
-3. Install required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-4. Run the Jupyter notebooks to perform firm classifications using your preferred method.
+3. Run the Jupyter notebooks to perform firm classifications using your preferred method.
 
 ## Notes
 
