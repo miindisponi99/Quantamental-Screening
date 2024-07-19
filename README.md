@@ -85,6 +85,6 @@ This project is licensed under the MIT License.
 
 ---
 
-We hope you find this project useful for your financial analysis needs. If you have any questions or feedback, please open an issue in this repository.
+I hope you find this project useful for your financial analysis needs. If you have any questions or feedback, please open an issue in this repository.
 
 Happy Screening!
